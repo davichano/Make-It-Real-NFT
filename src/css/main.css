@@ -119,11 +119,15 @@ footer{
 }
 
 @media (min-width: 1440px) {
+  body{
+    height: 100vh;
+  }
+
   .margin-top-lg{
     margin-top: 50px;
   }
 
-  .container{
-      margin-bottom: 200px;
+  .card{
+    width: 30%;
   }
 }
