@@ -1,0 +1,129 @@
+body{
+  font-size: 15px;
+  background-color: #0c192c;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #15273f;
+  border-radius: 15px;
+  border: 0;
+  padding: 15px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card__img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card__title{
+  font-size: 1.3rem;
+}
+
+.card__description{
+  color: rgba(255, 255, 255, .6);
+}
+
+.card__info{
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card__info .info__content{
+  padding: 10px 15px;
+  position: relative;
+}
+
+.info__content::after{
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  content: " ";
+  left: 0;
+}
+
+.info__price{
+  color: #0fffff;
+  text-transform: uppercase;
+}
+
+.info__price::after{
+  background: url('./../img/icon-ethereum.svg') no-repeat;
+
+  width: 10px;
+  height: 20px;
+}
+
+.info__time{
+  color: rgba(255, 255, 255, .6);
+  font-size: 0.9rem;
+  padding-left: 20px !important;
+}
+
+.info__time::after{
+  background: url('./../img/icon-clock.svg') no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.card__footer{
+  padding: 5px 0;
+  max-width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+  font-size: 0.7rem;
+  text-align: left;
+  justify-content: start;
+}
+
+.card__footer .footer__img{
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card__footer .card__author{
+  color: rgba(255, 255, 255, .6);
+}
+
+.card__footer .card__author a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+footer{
+  font-size: 0.7rem;
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .margin-top-sm{
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .margin-top-lg{
+    margin-top: 50px;
+  }
+
+  .container{
+      margin-bottom: 200px;
+  }
+}
