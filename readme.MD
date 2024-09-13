@@ -1,6 +1,6 @@
-# Make It Real - My Team Page
+# Make It Real - NFT Card
 
-This is a solution to the "my-team" projext of the Make It Real course.
+This is a solution to the "NFT" projext of the Make It Real course.
 
 ## Table of contents
 
@@ -22,10 +22,12 @@ Users should be able to:
 - Write the HTML
 - Write pure css
 - Import google font
+- Box Shadows
+- Hover and active
 
 ### Screenshot
 
-![](./src/img/ss.jpg)
+![](./src/img/ss.png)
 
 ## My process
 
